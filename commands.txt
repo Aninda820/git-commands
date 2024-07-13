@@ -1,0 +1,27 @@
+Upload folder into git repository:
+
+git init
+git add <folder name>
+git status
+git commit -m "commit massage"
+git remote add origin <Github link https>
+git push -u origin main/master (check your branch name)
+
+
+
+
+change branch command:
+
+git branch -M main (if branch is master then it will turn into main branch)
+git branch -M master (if branch is main then it will turn into master branch)
+
+
+
+
+
+Push file into git repository:
+
+git add <file name>
+git status
+git commit -m "commit massage"
+git push origin main/master  (depend on branch name man/master)
